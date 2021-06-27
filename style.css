@@ -1,0 +1,179 @@
+html {
+  display: block;
+}
+
+body {
+  background: #fff;
+}
+
+.sphere {
+  position: relative;
+  display: block;
+  margin: 100px auto;
+  width: 300px;
+  height: 300px;
+  background: yellow;
+  border-radius: 100%;
+  box-shadow: 5px 5px 5px 5px rgb(211, 137, 1);
+}
+
+.sphere .star1 {
+  content: "";
+  position: relative;
+  height: 50px;
+  width: 50px;
+  top: 100px;
+  left: 80px;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  background: red;
+  -webkit-transform: rotate(-15deg);
+}
+
+.sphere .star2 {
+  content: "";
+  position: relative;
+  height: 50px;
+  width: 50px;
+  top: 130px;
+  left: 100px;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  background: red;
+  -webkit-transform: rotate(-15deg);
+}
+
+.sphere .star3 {
+  content: "";
+  position: relative;
+  height: 50px;
+  width: 50px;
+  top: -25px;
+  left: 165px;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  background: red;
+  -webkit-transform: rotate(-15deg);
+}
+
+.sphere .star4 {
+  content: "";
+  position: relative;
+  height: 50px;
+  width: 50px;
+  top: 6px;
+  left: 185px;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  background: red;
+  -webkit-transform: rotate(-15deg);
+}
+
+.sphere .reflex1 {
+  content: "";
+  position: relative;
+  height: 25px;
+  width: 70px;
+  top: -105px;
+  left: 20px;
+  background: rgba(255, 255, 255, 0.705);
+  border-radius: 70%;
+  -webkit-transform: rotate(-60deg);
+  box-shadow: 5px -5px rgba(221, 221, 221, 0.61),
+    8px -8px rgba(221, 221, 221, 0.61), 10px -10px rgba(221, 221, 221, 0.61);
+}
+
+.sphere .reflex2 {
+  content: "";
+  position: relative;
+  height: 55px;
+  width: 90px;
+  top: -205px;
+  left: 85px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 70%;
+  -webkit-transform: rotate(-29deg);
+  box-shadow: -5px 5px rgba(221, 221, 221, 0.61),
+    -8px -8px rgba(221, 221, 221, 0.61), -10px -10px rgba(221, 221, 221, 0.61);
+}
+
+.sphere .reflex3 {
+  content: "";
+  position: relative;
+  height: 55px;
+  width: 110px;
+  top: -195px;
+  left: 170px;
+  background: rgba(255, 255, 255, 0.603);
+  border-radius: 70%;
+  -webkit-transform: rotate(-112deg);
+  box-shadow: -5px 5px rgba(221, 221, 221, 0.61);
+}
+
+.sphere .reflex4 {
+  content: "";
+  position: relative;
+  height: 20px;
+  width: 40px;
+  top: -125px;
+  left: 220px;
+  background: rgba(255, 255, 255, 0.603);
+  border-radius: 70%;
+  -webkit-transform: rotate(-240deg);
+  box-shadow: 5px -5px rgba(221, 221, 221, 0.26),
+    8px -8px rgba(221, 221, 221, 0.61), 10px -10px rgba(221, 221, 221, 0.61);
+}
+
+.sphere .reflex5 {
+  content: "";
+  position: relative;
+  height: 30px;
+  width: 70px;
+  top: -105px;
+  left: 155px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 70%;
+  -webkit-transform: rotate(155deg);
+  box-shadow: -5px 5px rgba(221, 221, 221, 0.61),
+    -8px -8px rgba(221, 221, 221, 0.61), -10px -10px rgba(221, 221, 221, 0.61);
+}
